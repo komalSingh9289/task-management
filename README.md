@@ -96,6 +96,12 @@ A modern, responsive **Task Management App** designed to streamline your product
 
 ## Screenshots
 
+![Screenshot (174)](https://github.com/user-attachments/assets/9a6045c2-2c4d-4b41-8718-edd61362eb48)
+
+![Screenshot (175)](https://github.com/user-attachments/assets/720f8645-6760-4a92-a4ab-9f7ca0da5627)
+
+![Screenshot (176)](https://github.com/user-attachments/assets/f7c3f96c-8166-4207-a305-22032f84a887)
+
 
 ---
 
