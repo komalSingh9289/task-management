@@ -46,22 +46,57 @@ A modern, responsive **Task Management App** designed to streamline your product
    ```bash
    git clone https://github.com/your-username/task-manager.git
    cd task-manager
-  # Install backend dependencies
-  cd backend
-  npm install
-  
-  # Install frontend dependencies
-  cd ../frontend
-  npm install
+   ```
 
-  #Configure environment variables for the backend: Create a .env file in the backend folder and add:
-  MONGO_URI=your-mongodb-connection-string
-  PORT=5000
-  
-  #start the server
-  cd backend
-  npm start
+2. Install dependencies:
+   ```bash
+   # Install backend dependencies
+   cd backend
+   npm install
 
-  #start the client 
-  cd ../frontend
-  npm start
+   # Install frontend dependencies
+   cd client
+   npm install
+   ```
+
+3. Configure environment variables for the backend:
+   Create a `.env` file in the `backend` folder and add:
+   ```env
+   MONGO_URI=your-mongodb-connection-string
+   PORT=5000
+   ```
+
+4. Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
+
+5. Start the frontend:
+   ```bash
+   cd client
+   npm start
+   ```
+
+6. Open the app in your browser at `http://localhost:5173`.
+
+---
+
+## API Endpoints
+
+| Method | Endpoint               | Description          |
+|--------|------------------------|----------------------|
+| GET    | `/api/task/`           | Fetch all tasks      |
+| POST   | `/api/task/`           | Add a new task       |
+| PUT    | `/api/task/update/:id` | Update a task        |
+| DELETE | `/api/task/delete/:id` | Delete a task        |
+
+---
+
+
+## Screenshots
+
+
+---
+
+
